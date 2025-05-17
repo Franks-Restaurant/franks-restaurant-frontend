@@ -1,7 +1,10 @@
 # Node.js dependencies
 node_modules/
-.yarn/
+
+# Yarn directories: ignore cache but keep releases
 .yarn/cache/
+!.yarn/releases/
+
 .pnp.*
 .pnpm-debug.log*
 
